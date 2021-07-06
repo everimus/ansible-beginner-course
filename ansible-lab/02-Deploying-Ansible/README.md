@@ -1,4 +1,4 @@
-## Deploying Ansible
+# Deploying Ansible
 
 ## Task: Configure ansible.cfg
 

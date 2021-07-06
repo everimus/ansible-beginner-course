@@ -1,4 +1,4 @@
-## Setting up Lab Environment
+# Setting up Lab Environment
 
 ## Task: Create an Ansible Lab
 
@@ -39,6 +39,15 @@ $ sudo apt-get install ansible
 
 ## If CentOS, configure EPEL repo (Extra Packages for Enterprise Linux)
 sudo yum -y install epel-release
+```
+
+### Add sudo user
+
+Make sure you have enabled sudo access for the ansible remote user
+
+```shell
+$ sudo cat /etc/sudoers.d/devops
+devops ALL=(ALL) NOPASSWD: ALL
 ```
 
 ## References
