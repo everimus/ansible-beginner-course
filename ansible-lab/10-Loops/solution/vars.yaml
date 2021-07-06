@@ -1,0 +1,16 @@
+users:
+  john:
+    firstname: John
+    lastname: Smit
+    designation: Admin
+    location: London
+  raj:
+    firstname: Raj
+    lastname: Mohan
+    designation: Operator
+    location: NewYork
+  anil:
+    firstname: anil
+    lastname: kumar
+    designation: Operator
+    location: NewYork

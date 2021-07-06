@@ -1,0 +1,20 @@
+web_package: httpd
+web_service: httpd
+firewall_package: firewalld
+firewall_service: firewalld
+users:
+  john:
+    firstname: John
+    lastname: Smit
+    designation: Admin
+    location: London
+  raj:
+    firstname: Raj
+    lastname: Mohan
+    designation: Operator
+    location: NewYork
+  anil:
+    firstname: anil
+    lastname: kumar
+    designation: Operator
+    location: NewYork

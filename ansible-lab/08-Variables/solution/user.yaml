@@ -1,0 +1,14 @@
+---
+- name: Loop
+  hosts: nodes
+  become: true
+  vars:
+    userlist:
+      - user101
+      - user102
+      - user103
+  tasks:
+    - name: Create users
+      user:
+        name: "{{ item }}"
+      with_list: "{{ userlist }}"
