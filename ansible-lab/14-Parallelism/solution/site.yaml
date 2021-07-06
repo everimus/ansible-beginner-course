@@ -1,0 +1,15 @@
+- name: Install httpd
+  hosts: nodes
+  become: yes
+  serial: 1
+  tasks:
+    - name: Install httpd
+      yum:
+        name: httpd
+        state: latest
+
+    - name: httpd enabled and running
+      service:
+        name: httpd
+        enabled: true
+        state: started

@@ -1,0 +1,12 @@
+- name: Enable Intranet Services
+  hosts: node1
+  become: yes
+  tasks:
+    - uri:
+        url: http://node1
+        return_content: yes
+        register: uri_response
+
+    - fail:
+        msg: 'No version found'
+        when: "'version' not in uri_response.content"
