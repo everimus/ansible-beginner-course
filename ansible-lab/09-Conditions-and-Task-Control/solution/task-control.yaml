@@ -1,0 +1,30 @@
+---
+- name: Task Control
+  hosts: nodes
+  become: true
+  vars:
+    install_package: "ok"
+    supported_os:
+      - RedHat
+      - Fedora
+      - CentOS
+    min_memory: 100
+  tasks:
+    - name: Install Packages
+      yum:
+        name: 
+          - httpd
+        state: present
+      when: 
+        - install_package == "ok"
+        - ansible_distribution in supported_os
+        - min_memory is defined
+      notify: 
+        - restart httpd 
+
+  handlers:
+    - name: restart httpd
+      service:
+        name: httpd
+        enabled: true
+        state: restarted        
