@@ -1,4 +1,4 @@
 # Manaing Inventory
 
-## Task:
+## Task: Create an inventory and use Host Patterns
 
