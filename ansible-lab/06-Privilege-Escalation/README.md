@@ -1,6 +1,6 @@
 # Privilege Management
 
-## Task: Test Ansible Privilge Execution
+## Task: Test Ansible Privilege Execution
 
 Create a plybook to install httpd and start the service. 
 
