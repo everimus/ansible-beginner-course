@@ -1,4 +1,4 @@
-# Privilege Managemet
+# Privilege Management
 
 ## Task: Test Ansible Privilge Execution
 
