@@ -1,6 +1,6 @@
 # Loops in Ansible
 
-Learn about with_items, loops, with_files etc.
+- Learn about with_items, loops, with_files etc.
 
 ## Task: Create users using Loops
 

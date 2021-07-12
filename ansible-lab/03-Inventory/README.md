@@ -1,5 +1,12 @@
 # Manaing Inventory
 
+- All managed hosts to be controlled by Ansible must be registed as an inventory item.
+- INI, YAML, JSON formats are supported.
+- You can create multiple inventories and configure and use the same.
+- Host patterns are allowed use multiple managed nodes of similar names or type
+- Host grouping is allowed to group similar inventories
+- Dynamic inventories can be used for fetching node deteails like cloud, container etc.
+
 ## Task: Create an inventory and use Host Patterns
 
 Check Ansible host patterns

@@ -1,5 +1,7 @@
 # Control Task based on Conditions
 
+- When condition to control the task executions.
+
 ## Task: Create Playbook to Install Package based on Conditions
 
 - Install httpd package only if

@@ -1,5 +1,12 @@
 # Creating Playbooks
 
+- A collection of tasks (or plays) written in a file
+- YAML format
+- Standard YAML syntax
+- Multiple Plays can be included
+- Task -> Plays -> Playbook
+
+
 ## Task: Create a Playbook as below
 
 - Install httpd and firewalld packages

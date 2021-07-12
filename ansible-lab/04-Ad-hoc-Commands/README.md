@@ -1,5 +1,8 @@
 # Ansible Ad-Hoc Commands
 
+- Simple ad-hoc commands can be executed without writing or calling a playbooks
+- Useful for simple tasks and debugging purpose
+
 ## Task: Execute Ansible Ad-hoc commands
 
 `ansible host-pattern -m module [-a 'module arguments'] [-i inventory]`

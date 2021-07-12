@@ -1,4 +1,7 @@
-# Privilege Managemet
+# Privilege Management
+
+- Used for privileged tasks (eg: installing packages, creating or modifying system services or file etc)
+- Can configure in many places and can dynamically call inside playbook.
 
 ## Task: Test Ansible Privilge Execution
 
