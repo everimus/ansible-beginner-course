@@ -1,9 +1,9 @@
-# Ansible Troubleshooting
+# Ansible Parallelism
 
 - Learn to use `fork` and `serial`
 - Learn to use dynamic and multiple inventories
 
-## Task: Check and Fail
+## Task: Configure Parallelism
 
 - Create `ansible.cfg` and configure below
   - Set fork to 5
